@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-image: linear-gradient(to right, #051421, #042727);
+  width: 100vw;
+
+  padding-bottom: 50px;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

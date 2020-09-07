@@ -1,0 +1,33 @@
+.moviecard {
+  color: white;
+
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  transition: transform 100ms;
+}
+.moviecard > img {
+  height: 300px;
+  width: 400px;
+  object-fit: contain;
+}
+.moviecard:hover {
+  transform: scale(1.1);
+}
+
+.moviecard > h2 {
+  padding-top: 10px;
+}
+
+.moviecard__stats {
+  display: none;
+}
+
+.moviecard:hover > .moviecard__stats {
+  display: inline;
+}
+
+.moviecard__stats > p {
+  display: flex;
+  align-items: center;
+}
